@@ -1,0 +1,37 @@
+name: dynamic_weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Sürümün bilgisayarındakiyle uyumlu olmalı
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.7
+  dio: ^5.4.1
+  json_annotation: ^4.8.1
+  geolocator: ^10.1.0
+  permission_handler: ^11.3.0
+  google_fonts: ^6.1.0
+  lottie: ^3.1.0
+  intl: ^0.20.2
+  flutter_typeahead: ^6.0.0
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - .env
